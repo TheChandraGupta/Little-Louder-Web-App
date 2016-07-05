@@ -1,0 +1,39 @@
+<div class=login-page> 
+<div class=img-container> 
+<div class="text-center pull-right photo"> 
+<img src=images/flat-avatar.png class="user-avatar img-circle img-responsive"> 
+<h1>LITTLE<br>
+ <span>LOUDER</span><br><small>Listen It</small></h1>
+ </div>
+ </div>
+ <div class=form-content> 
+ <div class=pro-link>
+ <a href="#">GET ANDROID APP</a> 
+ </div>
+ <form role=form class=bottom-75 ng-submit=submit()> 
+ <div class=table-form>
+ <div class=form-groups> 
+ <div class=form-group>
+ <input type=email class="form-control input-lg" ng-model="email" placeholder=EMAIL> 
+ </div>
+ </div> 
+ <div class=button-container>
+ <button type=submit class="btn btn-default login">
+ <img src=images/arrow.png></button>
+ </div>
+ </div> 
+ <div class=remember> 
+ <!--
+ <label class=checkbox1 for=Option>
+ <input id=Option type=checkbox>
+ <span></span>remember me  </label> -->
+ <center style="color:#ffff33">{{notification}}</center>
+ <center>
+ <a  ui-sref=login style="color:#fff">Already IN? Login</a>
+ </br>
+ <a  ui-sref=signup style="color:#fff">New User? Sign Up</a>
+ </center>
+ </div>
+ </form> 
+ </div> 
+ </div> 
